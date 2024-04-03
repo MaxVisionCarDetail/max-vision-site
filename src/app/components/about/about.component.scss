@@ -1,0 +1,52 @@
+.service-item-1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../../../assets/img/interior-cleaning.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+  margin-left: 0%;
+  text-align: center;
+}
+
+.service-item-2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../../../assets/img/car-polishing2.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+}
+
+.service-item-3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../../../assets/img/ceramic-coating1.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+}
+
+.about-services h1 span {
+  font-size: 140%; /* Adjust the font size as needed */
+  font-weight: bold;
+  font-family: sans-serif;
+  color: black;
+}
+
+.service-title {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.first-word {
+    color: white;
+}
+
+.second-word {
+    color: darkorange;
+}

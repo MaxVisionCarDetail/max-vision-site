@@ -1,0 +1,22 @@
+.logo {
+color: #fff;
+}
+.logo-image {
+  max-height: 49px;
+  padding-bottom: 4px;
+  }
+
+ .contact-info {
+  padding-left: 15%;
+ }
+
+#footer .row [class^="col-"]:not(:first-child)::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 1px;
+  background-color: rgba(250, 250, 250, 0.1);
+  height: 100px;
+}
