@@ -193,7 +193,7 @@ function toggleLanguage() {
 }
 
 function loadTranslations(language) {
-    const url = `assets/${language}.json`;
+    const url = `/assets/${language}.json`;
     fetch(url)
         .then(response => response.json())
         .then(data => updateText(data))
