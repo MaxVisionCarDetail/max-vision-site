@@ -1,0 +1,64 @@
+.step-1-banner {
+  background-image: linear-gradient(to right, rgba(248, 249, 250, 0), #f8f9fa),
+    linear-gradient(to left, rgba(248, 249, 250, 0), #f8f9fa),
+    url(/assets/images/two-bucket-2.jpeg);
+}
+
+.step-2-banner {
+  background-image: linear-gradient(to right, rgba(248, 249, 250, 0), #f8f9fa),
+    linear-gradient(to left, rgba(248, 249, 250, 0), #f8f9fa),
+    url(/assets/images/clay-bar-2.jpg);
+}
+
+.step-3-banner {
+  background-image: linear-gradient(to right, rgba(248, 249, 250, 0), #f8f9fa),
+    linear-gradient(to left, rgba(248, 249, 250, 0), #f8f9fa),
+    url(/assets/images/car-polish-2.jpeg);
+}
+
+.step-4-banner {
+  background-image: linear-gradient(to right, rgba(248, 249, 250, 0), #f8f9fa),
+    linear-gradient(to left, rgba(248, 249, 250, 0), #f8f9fa),
+    url(/assets/images/clean-headlights-2.jpg);
+}
+
+.step-5-banner {
+  background-image: linear-gradient(to right, rgba(248, 249, 250, 0), #f8f9fa),
+    linear-gradient(to left, rgba(248, 249, 250, 0), #f8f9fa),
+    url(/assets/images/tyre-shine-2.jpg);
+}
+
+
+/* -------------------- RESPONSIVE -------------------------- */
+
+@media (max-width: 768px) {
+  .step-1-text {
+    background-image: linear-gradient(to right, rgba(248, 249, 250, 0.185), #f8f9fa),
+      linear-gradient(to left, rgba(248, 249, 250, 0), #f8f9fa),
+      url(/assets/images/two-bucket-2.jpeg);
+  }
+  
+  .step-2-text {
+    background-image: linear-gradient(to right, rgba(248, 249, 250, 0.185), #f8f9fa),
+      linear-gradient(to left, rgba(248, 249, 250, 0), #f8f9fa),
+      url(/assets/images/clay-bar-2.jpg);
+  }
+  
+  .step-3-text {
+    background-image: linear-gradient(to right, rgba(248, 249, 250, 0.185), #f8f9fa),
+      linear-gradient(to left, rgba(248, 249, 250, 0), #f8f9fa),
+      url(/assets/images/car-polish-2.jpeg);
+  }
+  
+  .step-4-text {
+    background-image: linear-gradient(to right, rgba(248, 249, 250, 0.185), #f8f9fa),
+      linear-gradient(to left, rgba(248, 249, 250, 0), #f8f9fa),
+      url(/assets/images/clean-headlights-2.jpg);
+  }
+  
+  .step-5-text {
+    background-image: linear-gradient(to right, rgba(248, 249, 250, 0.185), #f8f9fa),
+      linear-gradient(to left, rgba(248, 249, 250, 0), #f8f9fa),
+      url(/assets/images/tyre-shine-2.jpg);
+  }
+}

@@ -1,0 +1,88 @@
+.step-1-banner {
+  background-image: linear-gradient(to right, rgba(248, 249, 250, 0), #f8f9fa),
+    linear-gradient(to left, rgba(248, 249, 250, 0), #f8f9fa),
+    url(/assets/images/interior-dash.jpg);
+}
+
+.step-2-banner {
+  background-image: linear-gradient(to right, rgba(248, 249, 250, 0), #f8f9fa),
+    linear-gradient(to left, rgba(248, 249, 250, 0), #f8f9fa),
+    url(/assets/images/interior-sit.jpeg);
+}
+
+.step-3-banner {
+  background-image: linear-gradient(to right, rgba(248, 249, 250, 0), #f8f9fa),
+    linear-gradient(to left, rgba(248, 249, 250, 0), #f8f9fa),
+    url(/assets/images/interior-carpet.jpg);
+}
+
+.step-4-banner {
+  background-image: linear-gradient(to right, rgba(248, 249, 250, 0), #f8f9fa),
+    linear-gradient(to left, rgba(248, 249, 250, 0), #f8f9fa),
+    url(/assets/images/interior-roof.jpg);
+}
+
+.step-5-banner {
+  background-image: linear-gradient(to right, rgba(248, 249, 250, 0), #f8f9fa),
+    linear-gradient(to left, rgba(248, 249, 250, 0), #f8f9fa),
+    url(/assets/images/interior-windshield.jpg);
+}
+
+.step-6-banner {
+  background-image: linear-gradient(to right, rgba(248, 249, 250, 0), #f8f9fa),
+    linear-gradient(to left, rgba(248, 249, 250, 0), #f8f9fa),
+    url(/assets/images/interior-smell.jpeg);
+}
+
+.step-7-banner {
+  background-image: linear-gradient(to right, rgba(248, 249, 250, 0), #f8f9fa),
+    linear-gradient(to left, rgba(248, 249, 250, 0), #f8f9fa),
+    url(/assets/images/interior-hard-spot.jpeg);
+}
+
+/* -------------------- RESPONSIVE -------------------------- */
+
+@media (max-width: 768px) {
+  .step-1-text {
+    background-image: linear-gradient(to right, rgba(248, 249, 250, 0.185), #f8f9fa),
+      linear-gradient(to left, rgba(248, 249, 250, 0), #f8f9fa),
+      url(/assets/images/interior-dash.jpg);
+  }
+  
+  .step-2-text {
+    background-image: linear-gradient(to right, rgba(248, 249, 250, 0.185), #f8f9fa),
+      linear-gradient(to left, rgba(248, 249, 250, 0), #f8f9fa),
+      url(/assets/images/interior-sit.jpeg);
+  }
+  
+  .step-3-text {
+    background-image: linear-gradient(to right, rgba(248, 249, 250, 0.185), #f8f9fa),
+      linear-gradient(to left, rgba(248, 249, 250, 0), #f8f9fa),
+      url(/assets/images/interior-carpet.jpg);
+  }
+  
+  .step-4-text {
+    background-image: linear-gradient(to right, rgba(248, 249, 250, 0.185), #f8f9fa),
+      linear-gradient(to left, rgba(248, 249, 250, 0), #f8f9fa),
+      url(/assets/images/interior-roof.jpg);
+  }
+  
+  .step-5-text {
+    background-image: linear-gradient(to right, rgba(248, 249, 250, 0.185), #f8f9fa),
+      linear-gradient(to left, rgba(248, 249, 250, 0), #f8f9fa),
+      url(/assets/images/interior-windshield.jpg);
+  }
+  
+  .step-6-text {
+    background-image: linear-gradient(to right, rgba(248, 249, 250, 0.185), #f8f9fa),
+      linear-gradient(to left, rgba(248, 249, 250, 0), #f8f9fa),
+      url(/assets/images/interior-smell.jpeg);
+  }
+  
+  .step-7-text {
+    background-image: linear-gradient(to right, rgba(248, 249, 250, 0.185), #f8f9fa),
+      linear-gradient(to left, rgba(248, 249, 250, 0), #f8f9fa),
+      url(/assets/images/interior-hard-spot.jpeg);
+  }
+  
+}
