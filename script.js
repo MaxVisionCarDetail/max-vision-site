@@ -174,3 +174,57 @@ document.addEventListener("click", function (event) {
     closeNav();
   }
 });
+
+// ----------- Analytics Tracking Code -----------
+
+// Time on Page Tracking
+let analyticsStartTime = Date.now();
+window.addEventListener("beforeunload", function () {
+  const duration = Math.round((Date.now() - analyticsStartTime) / 1000);
+  if (typeof gtag === "function") {
+    gtag("event", "time_on_page", {
+      event_category: "Engagement",
+      value: duration,
+    });
+  }
+});
+
+// Scroll Depth Tracking
+let scrolled25 = false, scrolled50 = false, scrolled75 = false;
+window.addEventListener("scroll", () => {
+  const scrollTop = window.scrollY;
+  const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+  const percentScrolled = (scrollTop / docHeight) * 100;
+
+  if (typeof gtag === "function") {
+    if (!scrolled25 && percentScrolled > 25) {
+      gtag("event", "scroll_depth", { event_label: "25%", event_category: "Scroll" });
+      scrolled25 = true;
+    }
+    if (!scrolled50 && percentScrolled > 50) {
+      gtag("event", "scroll_depth", { event_label: "50%", event_category: "Scroll" });
+      scrolled50 = true;
+    }
+    if (!scrolled75 && percentScrolled > 75) {
+      gtag("event", "scroll_depth", { event_label: "75%", event_category: "Scroll" });
+      scrolled75 = true;
+    }
+  }
+});
+
+// Track Clicks on Learn More Buttons inside Service Cards
+document.addEventListener("DOMContentLoaded", () => {
+  const learnMoreButtons = document.querySelectorAll(".learn-more-button");
+
+  if (learnMoreButtons.length && typeof gtag === "function") {
+    learnMoreButtons.forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const label = btn.closest(".service-card")?.querySelector("h5")?.innerText || "Unknown";
+        gtag("event", "click_learn_more", {
+          event_category: "Services",
+          event_label: label,
+        });
+      });
+    });
+  }
+});
